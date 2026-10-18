@@ -147,3 +147,26 @@ The arithmetic definitions are consistent within peer_valuation.py. However, the
 Because these definitions are unresolved, the peer multiples are preliminary screening evidence. They are not used to calculate a definitive peer-implied Amazon share price, and they do not independently validate the DCF.
 
 Status: PARTIAL — Formula definitions reviewed; full input-definition consistency not established.
+## Published FIN 43900 Training-Case Reconciliation
+
+Source: FIN 43900 Week 3 Student Handout
+https://github.com/CinderZhang/FIN43900-Fall2026/blob/main/lessons/week-03/student-handout.md
+
+A standalone DCF calculator was tested against the professor's published training-case answers.
+
+Results (USD millions except per-share amounts):
+
+- Year 1 FCFF: $108.00 — PASS
+- Year 1 discounted FCFF: $98.18 — PASS
+- Terminal value: $1,894.65 — PASS
+- Enterprise value: $1,624.87 — PASS
+- Equity value per share: $27.50 — PASS
+- Increasing WACC from 10% to 11% reduced enterprise value — PASS
+
+All published numerical checks reconciled within rounding tolerance.
+
+Evidence:
+- test_training_case.py
+- Output/training_case_validation.png
+
+Limitation: This validates the standalone training-case DCF calculation, not the complete connected Amazon forecasting engine.
