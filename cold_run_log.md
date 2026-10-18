@@ -23,3 +23,12 @@ This records successful local tests and an application restart, not a fully isol
 
 2025 10-K: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
 2026 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+## Separate-Environment Verification — October 17, 2026
+
+- Created a new Python environment: .venv_coldtest
+- Installed dependencies from requirements.txt: PASS
+- Ran five valuation arithmetic tests in the new environment: ALL PASS
+- Launched the Streamlit dashboard on port 8505: PASS
+- Confirmed the dashboard displayed valuation results and responded to an adjustable input: PASS
+
+Limitation: This test used the existing project folder and a new Python environment. It was not an isolated GitHub clone or an independent review of the financial model.
