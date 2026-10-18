@@ -1,0 +1,4 @@
+company,ticker,price_date,share_price,shares_outstanding_millions,market_cap_millions,debt_millions,cash_millions,enterprise_value_millions,ttm_revenue_millions,ttm_ebitda_millions,ttm_net_income_millions,source
+Walmart,WMT,2026-09-01,105.92,7933.746241,,50411,11529,,735840,,22076,https://www.sec.gov/Archives/edgar/data/104169/000010416926000154/wmt-20260731.htm
+Microsoft,MSFT,2026-09-01,501.02,7425.545491,,46136,76843,,331839,,133749,https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
+Alphabet,GOOGL,2026-09-01,335.02,12230,,100164,242474,,445866,,244205,https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm
