@@ -11,7 +11,7 @@
 
 The repository contains the Python valuation model, Streamlit application, financial inputs, forecasts, tests, output evidence, and supporting documentation.
 
-**Repository access:** Private. Instructor/grader access must be confirmed before final submission.
+Repository access: Public. The repository can be viewed without a GitHub invitation.
 
 ## 2. Research Evolution
 
