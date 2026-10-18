@@ -1,0 +1,9 @@
+driver,range,low_input,high_input,2030_ebit_swing_millions,2030_fcff_swing_millions,valuation_swing_per_share,value_per_share_low_input,value_per_share_high_input
+WACC,Narrow,0.1003,0.11030000000000001,0.0,0.0,15.67,113.17,97.5
+WACC,Wide,0.09530000000000001,0.1153,0.0,0.0,31.77,122.82,91.06
+Terminal growth,Narrow,0.024999999999999998,0.034999999999999996,0.0,0.0,12.55,98.95,111.5
+Terminal growth,Wide,0.019999999999999997,0.04,0.0,0.0,25.44,93.77,119.21
+Operating margin,Narrow,-0.005,0.005,13651.51,10921.21,11.76,98.93,110.68
+Operating margin,Wide,-0.01,0.01,27303.02,21842.42,23.52,93.05,116.56
+CapEx/revenue,Narrow,-0.005,0.005,0.0,7348.28,8.44,109.03,100.58
+CapEx/revenue,Wide,-0.01,0.01,0.0,14696.55,16.88,113.25,96.36
