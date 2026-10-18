@@ -89,3 +89,40 @@ Status: Illustrative forecast assumptions requiring independent support, defensi
 
 These assumptions are provisional modeling scenarios, not Amazon guidance.
 They require independent supporting evidence and sensitivity testing.
+
+## Additional Valuation Assumption Challenges
+
+### Capital Expenditures
+- Value: 20% of revenue in 2026, declining to 16% by 2030.
+- Basis: Preliminary analyst forecast reflecting Amazon's substantial infrastructure investment.
+- Challenge: Actual AI infrastructure and fulfillment spending may exceed these assumptions.
+- Evidence that would change it: Amazon's capital expenditure disclosures, management guidance, and cash flow statements.
+- Status: Preliminary; a higher-CapEx sensitivity test was performed.
+
+### Depreciation
+- Value: Approximately $71,405 million in 2026, increasing to $143,201 million in 2030.
+- Basis: Outputs from the model's forecast fixed-asset schedule.
+- Challenge: Asset useful lives, depreciation methods, and new infrastructure investment may change future depreciation.
+- Evidence that would change it: Amazon's depreciation disclosures and property-and-equipment schedules.
+- Status: Preliminary; the forecast methodology requires further independent verification.
+
+### Operating Net Working Capital
+- Value: Approximately negative $117,647 million in 2026 and negative $191,121 million in 2030.
+- Basis: Preliminary forecast linked to operating activity and revenue growth.
+- Challenge: Payment timing, inventory levels, receivables, and accrued liabilities may not maintain the modeled relationships.
+- Evidence that would change it: Reported working-capital balances, operating cash flow trends, and changes in supplier-payment practices.
+- Status: Preliminary; the forecast methodology requires further independent verification.
+
+### Weighted Average Cost of Capital (WACC)
+- Value: Approximately 10.53%.
+- Basis: Preliminary discount-rate assumption used in the valuation engine.
+- Challenge: The true required return may differ because of equity risk, borrowing costs, capital structure, and market conditions.
+- Evidence that would change it: Updated risk-free rates, equity-risk premium assumptions, beta estimates, debt costs, and capital structure.
+- Status: Preliminary; sensitivity to discount-rate changes remains important.
+
+### Terminal Growth
+- Value: 3.0%.
+- Basis: Preliminary perpetual-growth assumption following the five-year forecast.
+- Challenge: Sustainable long-term growth may differ from this assumption, and terminal value represents a substantial share of the DCF.
+- Evidence that would change it: Sustainable reinvestment requirements, long-run growth expectations, and updated profitability forecasts.
+- Status: Preliminary; the engine rejects terminal growth at or above WACC.
